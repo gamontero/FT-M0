@@ -105,15 +105,16 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  for (let index = 0; index < numeros.length; index++) {
-    if () {
-      
+  var maximo = numeros [0];
+  for (var i = 1; index < numeros.length; i++) {
+    if(numeros[i] > maximo) {
+    maximo = numeros[i];
     }
-    
-  }
+  } 
+  return maximo;      
+
 }
-
-
+    
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
